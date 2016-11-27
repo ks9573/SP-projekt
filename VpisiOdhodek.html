@@ -1,7 +1,8 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<link href="style.css" rel="stylesheet"/>	
+		<link href="style.css" rel="stylesheet"/>
+		<meta charset="utf-8" />
 		<title>Kalkulator življenskih stroškov</title>
 	</head>
 	
@@ -12,7 +13,7 @@
 	
 		<div id="page">
 	
-			<div id="banner">Kalkulator življenskih stroškov</div>
+			<div id="banner"></div>
 			
 			<div id="meniVrstica"> 
 				<div class="meniGumb"><a href="Stanje.html">Stanje</a></div>
@@ -22,19 +23,27 @@
 			</div>
 			
 			<div id="main">
+					
+					<div id="Obrazec">
+				
+						<form>											
+								<label>Kategorija:</label><select>		
+																<option selected>Živila</option>
+																<option>Poloznice</option>
+																<option>Avto</option>
+																<option>Ostalo</option>	
+																<option>Dodaj kategijo</option>
+														  </select>														  
+								<label>Racun:</label><select>		
+																<option selected>Osnovni transakcijski racun</option>
+																<option>Dodaj racun</option>															
+								</select>
+								<label>Znesek:</label><input type="text">													
+								<label>Podrobnosti:</label><textarea rows="2"></textarea>		
+								<input type="submit" id="vpisi" value="Vpisi">	
+						</form>
 			
-				<form id="Obrazec">											
-						<label>Kategorija:</label><select>		
-														<option selected>Živila</option>
-														<option>Poloznice</option>
-														<option>Avto</option>
-														<option>Ostalo</option>														
-												  </select>	
-						<label>Znesek:</label><input type="text">													
-						<label>Podrobnosti:</label><textarea rows="2"></textarea></td>		 
-				</form>
-			
-			
+					</div>
 			
 			</div>			
 			
