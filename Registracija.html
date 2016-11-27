@@ -1,5 +1,9 @@
 <!DOCTYPE HTML>
 <html>
+
+	
+
+
 	<head>
 		<link href="style.css" rel="stylesheet"/>	
 		<meta charset="utf-8" />
@@ -10,31 +14,39 @@
 	
 		<div id="page">
 	
-			<div id="banner"></div>
-			
-			
+			<div id="banner"></div>					
 			
 			<div id="main">
 			
 				<div id="Vpis"> 
 				
-					<form> 													
+					<form action="Vpis.html"> 													
 							
-						<label>Uporabniško ime:</label><input type="text">		
-						<label>Geslo:</label><input type="text">
-						<label>Ponovno vnesite geslo:</label><input type="text">	
-						<label>Elektronski naslov:</label><input type="text">
-						<input type="submit" id="vpisi" value="Vpis">
+						<label>Uporabniško ime:</label><input type="text" pattern=".*" required>		
+						<label>Geslo:</label><input type="password" required>
+						<label>Ponovno vnesite geslo:</label><input type="password" required>	
+						<label>Elektronski naslov:</label><input type="email" required>
+						<input type="submit" id="gumbVpisRegistracija" value="Registriraj">
 												
 					</form>
 					
-						
-				
+					<a id="VpisRegisterLink" href="Vpis.html"> Ste že registrirani ? Vpišete se lahko tukaj.</a>
+									
 				</div>
+				
+				<
+				
+				
 						
 			</div>						
 			
 		</div>		
 	
+		
+		
 	</body>
+	
+	
+	
+	
 </html>

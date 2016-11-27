@@ -1,10 +1,4 @@
-/*
-	default
-*/
-
-
-body{	
-	
+body{		
 	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
@@ -16,7 +10,7 @@ div {
 
 #page {	
 	width: 100%;
-	height:98vh; /*  zakaj 95% ne dela ?  */
+	height:98vh; 
 }
 
 #banner { 		
@@ -31,13 +25,18 @@ div {
 	font-size: 60px;
 	overflow: hidden;
 	white-space: noflow;
-	background-color: #404040;	
-	
+	background-color: #404040;		
 }
 
 #main {
 	height: 83.4%;	
-	border: 1px solid black;	
+	border: 1px solid black;
+	box-sizing: border-box;	
+}
+
+#tekst {	
+	float: left;
+	clear: both;
 }
 
 #meniVrstica {		
@@ -57,9 +56,7 @@ div {
 	box-sizing:border-box;
 	border: 1px solid white;
 	margin-left: auto;
-	margin-right: auto;
-	
-	
+	margin-right: auto;	
 }
 
 a:link { color: white; text-decoration: none;}
@@ -69,15 +66,12 @@ a:visited { color: white; text-decoration: none;}
 	padding: 10% 15%;		
 }
 
-
-select, input, textarea {
-	
+select, input, textarea {	
 	clear: both;
 	float: left;	
 	width: 200px;
 	margin: 2px 0px;	
 	text-align: right;	
-	
 }
 
 label {
@@ -93,59 +87,25 @@ label {
 	font-weight: bolder;
 }
 
-#vpisi {
-
-	width: 80px;	
-	
+#gumbVpisRegistracija {
+	width: 80px;		
 }
-
-/*
-Stanje
-*/
 
 #izpisStanja {
-
-	clear: left;
-
-
+	clear: left;	
 }
 
-
-/*
-	VpisiPrihodek
-*/
-	
-
-
-
-
-
-
-/*
-	VpisiPrihodek
-*/
-
-
-/* 
-	Vpis, Registracija
-*/
+#VpisRegisterLink   {	
+	margin: 10%;
+	float: left;
+	color: blue;
+	position: relative;
+	clear: both;	
+}
 
 #Vpis {
-
-	
 	width: 210px;
 	height: 200px;
 	margin: auto;
-	padding: 25% 0px;
-	
-	
-
+	padding: 25% 0px;		
 }
-
-
-
-
-
-
-
-
