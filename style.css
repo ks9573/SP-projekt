@@ -23,8 +23,7 @@ div {
 	text-align: center;		
 	color: white;
 	font-size: 60px;
-	overflow: hidden;
-	white-space: noflow;
+	overflow: hidden;	
 	background-color: #404040;		
 }
 
@@ -108,4 +107,11 @@ label {
 	height: 200px;
 	margin: auto;
 	padding: 25% 0px;		
+}
+
+#yay {
+	
+	position: absolute;
+	top: 88.32%;
+	
 }
